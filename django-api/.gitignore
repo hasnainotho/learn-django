@@ -1,0 +1,59 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# Media and static files
+/media
+/staticfiles
+/static
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtualenv
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pytest
+.pytest_cache/
+
+# pip-tools
+*.txt~
+requirements*.txt~
+
+# Sentry
+.sentryclirc
